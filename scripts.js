@@ -31,7 +31,7 @@ function jogos() {
   
   lista3 = lista2.slice(i,x);
   lista3.forEach((value) => {
-      print = print + `<div class="cartao1">
+      print = print + `<div class="card">
                           <img src="${value.thumbnail}" alt="imagem" class="img">
                           <h1 class="titulo">
                             ${value.title}
@@ -138,7 +138,7 @@ function race(){
   fetch(url, options)
   .then(response => response.json())
   .then((data) => {
-    lista = data.filter(p => p.genre === "Race");
+    lista = data.filter(p => p.genre === "racing");
     jogos()
   }).catch((e) => {console.log(e);})
 }
