@@ -1,4 +1,4 @@
-# Site de catalogo de jogos My Game List
+# My Game List
 
  <img src="./img/Screenshot 2022-06-07 202458.png">
 
@@ -22,4 +22,4 @@ Para a próxima melhoria será possivel adicionar jogos na aba de favoritos.
 ### Evelyn Trojack. 
 
 
-[Inicio](#tela-de-consulta-cep)<br>
+[Inicio](#my-game-list)<br>
