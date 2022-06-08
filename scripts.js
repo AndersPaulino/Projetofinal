@@ -138,7 +138,7 @@ function race(){
   fetch(url, options)
   .then(response => response.json())
   .then((data) => {
-    lista = data.filter(p => p.genre === "racing");
+    lista = data.filter(p => p.genre === "Racing");
     jogos()
   }).catch((e) => {console.log(e);})
 }
