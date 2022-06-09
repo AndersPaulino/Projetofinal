@@ -64,7 +64,7 @@ function fav(){
   fetch(url, options)
   .then(response => response.json())
   .then((data) => {
-    lista = data.filter(p => p.title === favoritos)
+    lista = data.filter(p => p.title == favoritos)
     jogos()
   }).catch((e) => {console.log(e);})
 }
