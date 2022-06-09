@@ -81,7 +81,9 @@ footer {
   display: flex;
   height: 100%;
   width: 20%;
-  background-color: #4c0968;
+  background: linear-gradient(90deg, #2E0249, #570A57, #A91079, #F806CC );
+  background-size: 300% 300%;
+  animation: colors 10s ease infinite;
   transition: 0.5s;
   overflow: hidden;
 }
@@ -237,7 +239,7 @@ ul li a span{
 }
 @media screen and (max-width: 767px) {
   main{
-    height: 400vh;
+    height: 550vh;
   }
   .logo {
     display: flex;
@@ -252,15 +254,15 @@ ul li a span{
     width: 200px;
     height: 15px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 150%;
   }
   .menu a {
     position: relative;
-    left: -20px;
+    left: -40px;
     top: 3px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     color: #ffffff;
     text-decoration: none;
     display: flex;
@@ -275,11 +277,11 @@ ul li a span{
   }
   #baner div img{
     height: 20vh;
-    width: 50vw;
+    width: 68vw;
   }
   #baner div:first-child img{
     height: 20vh;
-    width: 50vw;
+    width: 68vw;
   }
   #baner div:first-child{
     grid-column-start: 1;
@@ -293,8 +295,8 @@ ul li a span{
   }
   .icon{
     position: relative;
-    top: 3px;
-    left: -15px;
+    top: 0px;
+    left: -23px;
   }
   #b1{
     left: 10px;

@@ -1,4 +1,6 @@
 let lista = [];
+let lista2 = [];
+let lista3 = [];
 let url = `https://free-to-play-games-database.p.rapidapi.com/api/games`;
 let i = 0;
 let x = 10;
@@ -22,10 +24,7 @@ fetch(url, options)
   }).catch((e) => {console.log(e);})
 
 function jogos() {
-  let print = "";
- 
-  let lista2 = [];
-  let lista3 = [];
+  let print = ""; 
 
   lista2 = lista;
   
