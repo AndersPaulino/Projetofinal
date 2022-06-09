@@ -135,7 +135,7 @@ ul li a span{
 .menu-lateral a:hover {
   background-color: #640d8a;
   border-radius: 5px;
-  width: 50%;
+  width: 60%;
 }
 
 #baner{
@@ -237,7 +237,7 @@ ul li a span{
 }
 @media screen and (max-width: 767px) {
   main{
-    height: 500vh;
+    height: 400vh;
   }
   .logo {
     display: flex;
@@ -256,34 +256,45 @@ ul li a span{
     line-height: 150%;
   }
   .menu a {
+    position: relative;
+    left: -20px;
+    top: 3px;
     font-weight: 400;
     font-size: 15px;
     color: #ffffff;
     text-decoration: none;
     display: flex;
-    margin-inline: 15px;
+    margin-inline: 10px;
   }
   #baner{
     display: grid;
     grid-template-columns: auto;
-    padding-left: 50px;
-    width: 50px;  
+    width: 50px;
+    padding-left: 25px;
+    padding-top: 25px;  
+  }
+  #baner div img{
+    height: 20vh;
+    width: 50vw;
   }
   #baner div:first-child img{
-    height: 25vh;
-    width: 65vw;
+    height: 20vh;
+    width: 50vw;
   }
   #baner div:first-child{
     grid-column-start: 1;
     grid-column-end: 1;
   }
   .menu-lateral a{
+    position: relative;
     width: 50px;
     height: 50px;
+    left: -10px;
   }
   .icon{
     position: relative;
-    left: -20px;
+    top: 3px;
+    left: -15px;
   }
   #b1{
     left: 10px;
@@ -295,7 +306,48 @@ ul li a span{
     left: 14px;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  main{
+    height: 140vw;
+  }
+  ul {
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+    left: -25px;
+  }
+  ul li a {
+    width: 250px;
+  }
+  .menu-lateral a:hover{
+    background-color: #640d8a;
+    border-radius: 5px;
+    width: 100%;
+  }
 
+  #baner{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    left: -150px;
+    width: 100px;
+    gap: 5px;
+  }
+  #baner div img{
+    height: 15vh;
+    width: 20vw;
+  }
+  #baner div:first-child img{
+    height: 25vh;
+    width: 68vw;
+  }
+  #b1{
+    left: 135px;
+  }
+  #b2{
+    left: 145px;
+  }
+}
 @keyframes colors {
   0% {
     background-position: 0% 50%;
