@@ -237,7 +237,7 @@ ul li a span{
   background-color: #640d8a;
   border-radius: 2px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   main{
     height: 550vh;
   }
